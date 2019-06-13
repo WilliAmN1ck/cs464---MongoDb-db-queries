@@ -1,0 +1,19 @@
+new text file
+connecting to mongo Db: 
+mongo "mongodb+srv://nickscluster-hzw0j.mongodb.net/test" --username Williams
+
+Mypasswor1! or !1 for mongoDb
+Mypasswor1 for db itself
+
+connection string: mongo "mongodb+srv://h3cluster-jzrlj.mongodb.net/test" --username Williams
+
+mongo "mongodb+srv://h3cluster-jzrlj.mongodb.net/test" --username Williams
+
+
+load file from: /Users/Willums/Documents/spring2019/cs464databases/hw03-mongoDb/departmentsWin.txt
+
+auto generated import statement: WORKS but must change for each file
+mongoimport --host H3Cluster-shard-0/h3cluster-shard-00-00-jzrlj.mongodb.net:27017,h3cluster-shard-00-01-jzrlj.mongodb.net:27017,h3cluster-shard-00-02-jzrlj.mongodb.net:27017 --ssl --username Williams --password Mypasswor1 --authenticationDatabase admin --db Williamsdb --collection Department --type csv --headerline --file /Users/Willums/Documents/spring2019/cs464databases/hw03-mongoDb/departmentsWin.txt
+
+my import statement: 
+mongoimport --db Williamsdb --collection Department --type csv --headerline --file /Users/Willums/Documents/spring2019/cs464databases/hw03-mongoDb/departmentsWin.txt
